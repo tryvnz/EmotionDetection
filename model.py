@@ -17,7 +17,7 @@ def detect_emotion(frame):
     for (x, y, w, h) in faces:
         roi = gray[y:y+h, x:x+w]
         roi = cv2.resize(roi, (48, 48))
-        roi = cv2.cvtColor(roi, cv2.COLOR_GRAY2RGB) # Convert to RGB
+        roi = cv2.cvtColor(roi, cv2.COLOR_GRAY2RGB) # Convert to RGB (because using MobileNetV2)
         roi = roi.astype("float32") / 255.0
         roi = np.expand_dims(roi, axis=0)
 
