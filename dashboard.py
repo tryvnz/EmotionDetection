@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from video_processor import analyze_video_feed  
 
 st.set_page_config(page_title="Therapist Support Dashboard", layout="centered")
-st.title("Therapist Emotion Insight Tool")
+st.title("Therapist Support Tool – Emotion Detection Dashboard")
 st.write("This tool supports therapists by analyzing a patient's emotional expressions. It provides insights into facial emotions during a consultation session to help improve understanding.")
 
 if st.button("Start Session (30 seconds)"):
