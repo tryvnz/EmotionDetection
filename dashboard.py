@@ -52,4 +52,4 @@ if st.button("Start Session (30 seconds)"):
         else:
             st.write("Emotion detected: " + dominant)
 
-        st.caption("This summary is intended to support therapist interpretation. It is not a diagnostic conclusion.")
+        st.caption("This summary is intended to support therapist interpretation. It is not a diagnostic conclusion")
